@@ -1,0 +1,44 @@
+
+  .section-title{
+    position: relative;
+    margin-block: 2rem;
+  }
+  .section-title:after{
+    content: '';
+    display: block;
+    width: 5px;
+    height: 100%;
+    background: #ff4847;
+    left: -6px;
+    top:0;
+    position: absolute;
+  }
+  .sidebar{
+    margin-top: 34px;
+  }
+  #searchBarFlow {
+    height: 2012px;
+
+}
+
+#searchBar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    left: 0;
+}
+@media only screen and (max-width: 1199px){
+    #searchBarFlow {
+      height: 1570px;
+      
+  }
+  
+  #searchBar {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0px;
+      left: 0;
+    
+  }
+  }
+
